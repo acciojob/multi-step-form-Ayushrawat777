@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Step from './Step'; // Make sure to adjust the import path
-import './App.css'
-
+import "./../styles/App.css";
 
 const MultiStepForm = () => {
   const [currentStep, setCurrentStep] = useState(1);
